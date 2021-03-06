@@ -1,0 +1,100 @@
+/*
+this CSS is for the plane.html
+*/
+
+
+
+#theplan p{
+	text-align: center !important;
+	direction: ltr !important;
+	line-height: 1.5;
+	text-transform: uppercase;
+	margin: 0 0 1.5rem 0;
+	font-weight: bold;
+	text-transform: capitalize;
+	font-size: 20px;
+	display:inline-flexbox;
+}
+/*the start of the main*/
+main
+{
+    direction: ltr;
+	display : flex;
+	flex-flow :  wrap;
+}
+section, div
+{
+	min-height : 150px;
+	min-width : 150px;
+}
+
+div.innersection {
+  margin: 10px;
+  background-color: white;
+  box-shadow: 2px 3px 3px 2px rgba(3, 46, 92, 0.2);
+  border-color: lightgrey;
+  border-width: 1px;
+  border-style: solid;
+  transition-duration: 2s;
+  -webkit-transition-duration: 2s;
+}
+
+div.innersection:hover {
+  box-shadow: 2px 3px 3px 2px rgba(3, 46, 92, 0.7);
+  border-color: grey;
+}
+
+#block1
+{
+	
+	flex-basis : 25%;
+}
+
+#block2
+{
+	
+	flex-basis : 25%;
+}
+
+#block3
+{
+	
+	flex-basis : 25%;
+}
+
+#block4
+{
+	
+	flex-basis : 25%;
+}
+
+div.innersection p{
+margin: 10px;
+}
+div.innersection h3{
+    text-align: center;
+}
+
+@media (max-width : 800px)
+{
+	#block1, #block2, #block3, #block4{
+		flex-basis : 50%;
+	}
+	
+}
+
+@media (max-width : 600px)
+{
+	#block1,#block2,#block3,#block4
+	{
+		flex-basis : 100%;
+	}
+}
+
+/*the end of  the main*/
+
+
+
+
+
+

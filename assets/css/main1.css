@@ -1,0 +1,24 @@
+
+    .item1{background:LightSkyBlue;}
+    .item2{background:rgb(160, 255, 122);}
+    .item3{background:PaleTurquoise;}
+    .item4{background:LightPink;}
+    
+    
+    .container {
+
+        font-size: 13px;
+        
+    width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
+        
+        
+      }
+
+      .container ul{
+          list-style-type: none;
+      }
+      .container #title{
+        text-align: center;
+      }
