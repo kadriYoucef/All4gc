@@ -2207,7 +2207,7 @@ ul.icons {
     #cta {
       background-attachment: scroll; } }
 
-/* Footer */
+/* --------------------------------Footer-------------------------- */
 #footer {
   background-color: #111111;
   color: rgba(255, 255, 255, 0.5);
@@ -2359,6 +2359,9 @@ ul.icons {
         padding-right: 4rem; }
       #footer .content section:last-child {
         padding-left: 4rem; }
+      #footer .content #AboutIt p{
+        padding-left: 2em;
+      }
   #footer .copyright {
     border-top: 1px solid;
     font-size: 0.8rem;
@@ -2389,8 +2392,9 @@ ul.icons {
   @media screen and (max-width: 480px) {
     #footer {
       padding: 2rem 0 0.1rem 0 ; } }
+  
 
-/* Header */
+/* ---------------------------------------Header------------------------- */
 body {
   padding-top: 3.25rem;
  }
