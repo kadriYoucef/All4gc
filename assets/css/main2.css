@@ -10,8 +10,20 @@
 	font-weight: bold;
 	text-transform: capitalize;
 	font-size: 20px;
-	display:inline-flexbox;
+	display: inline-flexbox;
 }
+a:hover{
+	text-decoration: underline;
+	color: #87cefa;
+}
+
+a{
+	color: #524d4df7;
+	font-size: 1.1rem;
+	font-family: times, "Time New Roman", Georgia, sans-serif;
+	text-decoration: none;
+}
+
 /*the start of the main*/
 main
 {

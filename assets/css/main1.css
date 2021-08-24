@@ -8,11 +8,14 @@
 }
 
 .Down a{
-  color:black;
+  color:#0E1C36;
+  font-size: 1.2rem;
+  font-family: times, "Time New Roman", Georgia, serif;
+  text-decoration: none;
 }
 
 p{
-  padding: 5px;
+  padding: 5px 0 5px 5px;
 }
 
 div.innersection {
@@ -35,6 +38,7 @@ div.innersection:hover {
 {
 	flex-basis : 25%;
 }
+
 @media (max-width : 800px)
 {
 	#blok1
@@ -50,3 +54,6 @@ div.innersection:hover {
 		flex-basis : 100%;
 	}
 }
+
+/* this modification is for the *PageDon.html*  -end- */
+
