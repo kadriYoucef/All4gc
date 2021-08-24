@@ -12,6 +12,12 @@
 	font-size: 20px;
 	display: inline-flexbox;
 }
+
+h2{
+	font-family:'Courier New', Courier, monospace;
+	font-display: swap;
+}
+
 a:hover{
 	text-decoration: underline;
 	color: #87cefa;
