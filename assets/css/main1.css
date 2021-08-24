@@ -1,11 +1,14 @@
 
 /* this modification is for the *PageDon.html*  -start- */
-
-.Down{
+/*
+#Down{
   direction: ltr !important;
-  margin: 7%;
-
+  margin: 10px;
 }
+h3{
+  text-transform: capitalize;
+}
+
 
 .Down a{
   color:#0E1C36;
@@ -54,6 +57,7 @@ div.innersection:hover {
 		flex-basis : 100%;
 	}
 }
+*/
 
 /* this modification is for the *PageDon.html*  -end- */
 

@@ -104,8 +104,30 @@ div.innersection h3{
 
 /* this modification is for the *plane.html*  -end- */
 
+/* this modification is for the *Downcors.html*  -start- */
+.Down{
+	direction: ltr;
+	margin: 20px;
+}
+.Matier p {
+	text-align: center;
+	font-size: large;
 
+	color: hsla(240, 54%, 37%, 0.986);
+}
 
+.Down h3{
+	color: rgb(64, 64, 231);
+}
+ul {
+	list-style: none;
+	margin: 0 0 2rem 0;
+	padding-left: 1rem; 
+}
+
+ul li {
+    padding-left: 0.325rem; 
+}
 
 
 
