@@ -18,18 +18,23 @@ h2{
 	font-display: swap;
 }
 
-a:hover{
+.innersection a:hover{
 	text-decoration: underline;
-	color: #87cefa;
+	color: hsl(203, 92%, 75%);
 }
 
-a{
-	color: #524d4df7;
-	font-size: 1.1rem;
-	font-family: times, "Time New Roman", Georgia, sans-serif;
+.innersection a{
+	color: #1b2142f7;
+	font-size: 1.04rem;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	text-decoration: none;
 }
 
+.innersection h3{
+	color:rgb(53, 113, 182);
+	font-weight: bold;
+	margin-top:	3px;
+}
 /*the start of the main*/
 main
 {
