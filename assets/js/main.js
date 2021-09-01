@@ -60,7 +60,7 @@ function DownMyFile (nameOfFile) {
     document.body.appendChild(a);
     a.click();
     window.URL.revokeObjectURL(url);
-    alert('your file has downloaded!'); // or you know, something with better UX...
+    alert('Your File Has Downloaded!'); 
     })
     .catch(() => alert('oh no!'));
 }
