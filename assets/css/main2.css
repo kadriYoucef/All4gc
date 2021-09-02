@@ -123,7 +123,7 @@ div.innersection h3{
 .Matier p {
 	text-align: center;
 	font-size: large;
-
+	text-transform: capitalize;
 	color: hsla(240, 54%, 37%, 0.986);
 }
 
