@@ -62,6 +62,6 @@ function DownMyFile (nameOfFile) {
     window.URL.revokeObjectURL(url);
     alert('Your File Has Downloaded!'); 
     })
-    .catch(() => alert('oh no!'));
+    .catch(() => alert('Error!'));
 }
 //the script for Download my files -end-
