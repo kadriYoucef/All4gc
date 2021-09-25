@@ -1,57 +1,186 @@
 <!DOCTYPE HTML>
 
 <html>
-		<!-- start head-->
-		<head>
-			<title>About me</title>
-			<meta charset="utf-8" />
-			<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-			<meta name="description" content="" />
-			<meta name="keywords" content="" />
-			<link rel="stylesheet" href="assets/css/main.css" />
-			<link rel="stylesheet" href="assets/css/main1.css" />
-		</head>
-		<!--end head-->
-		
-	<body class="is-preload">
-		<!-- start Header -->
-		<header id="header">
-			<nav>
-				<a href="#menu">Menu</a>
-			</nav>
-			<a class="logo" href="map.html">ALL4GC</a>
-		</header>
-		<!-- end Header -->	
+	<!-- start head-->
+	<head>
+		<title>About Me</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="kadri-youcef" content="kadri-youcef-Information" />										
+		<!--<link rel="stylesheet" type="text/css" href="assets/css/myinfo.css" />-->
+	</head>
+	<!--end head-->
 
-		<!-- start Nav --> 
-		<nav id="menu">
-			<ul class="links">
-				<li><a href="map.html">Home</a></li>				
-				<li><a a href="404.html">About Me</a></li>
-			</ul>
-		</nav>
-		<!-- end Nav -->
+	<style>
+		*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    box-sizing: border-box;
+}
+ul li {
+	list-style: none;
+}
 
-		<div class="mainbox">
-            <div class="err">4</div>
-            <i class="far fa-question-circle fa-spin"></i>
-            <div class="err2">4</div>
-            <div class="msg">                </div>
-        </div>
+/*myInfo*/
+.myInfo{
+    border: 5px solid yellow;
+    width: 70vw;
+    margin: 0 auto; /*to center the content*/
+	
+}
 
-		<div class="copyright">
-			&copy; Designed by <a href="404.html"> kadri Youcef</a>
+/*header*/
+.header{
+    border: 5px solid blue;         
+	overflow: hidden; /*contain the content floaty  اخفاء الفائض  */ 
+	display: table; /* it let the img to show  fall*/
+	margin: 5px;
+}
+
+/*MyName*/
+.MyName{
+    float: left;
+	width: 30%;    
+    border: 5px solid black;
+	
+}
+
+/*myimg*/
+.myimg {
+    float: right;
+    border: 5px solid red;  
+	width: 60%;  
+	
+}
+
+.myimg img{         /*the best style for img*/	
+    max-width: 100%;
+    			/******edit*/
+}
+/*use houver*/ 
+/*use transition*/ 
+
+/*profile*/
+.profile{
+	float: left;
+	width: 35%;    
+    border: 5px solid rgb(78, 53, 136);
+	margin-top: 10px;
+}
+	</style>
+
+	<body >
+		<div class="myInfo">
+			
+			<div class="header">
+				<!--start header-->
+				<header class="MyName ">
+					<h1>kadri youcef</h1>
+				</header>
+				<!--end header-->
+
+				<!--start myimg-->
+				<section class="myimg ">
+					<div id="myimg">
+						<p>
+							<img src="CV kadri.JPG" alt="kadri-youcef" >
+						</p>
+					</div>
+				</section>
+				<!--end myimg-->
+				
+				<!--start profile-->
+				<section class="profile">
+					<div id="profile">
+						<p>
+							<h2>profile</h2>
+							My name is kadri Youcef, 
+							a graduate of Adrar University 
+							with a master's degree in civil engineering, 
+							geotechnical branch. On the other hand, 
+							I am interested in technical content 
+							and computer software, 
+							so I learned programming 
+							and got a web developer 
+							certificate from Codecademy.
+						</p>
+					</div>
+				</section>
+				<!--end profile-->
+
+			</div>
+			
+			<!--start language-->
+			<section class="language grid-item">
+				<div id="language">
+					<h2>language</h2>
+					<ul>	
+						<li><strong>Arabic</strong>  good</li>
+						<li><strong>English</strong> medium</li>
+						<li><strong>Frensh</strong>  medium</li>					
+					</ul>
+				</div>
+			</section>
+			<!--end language-->
+
+			<!--start Academic-->
+			<section class="Academic grid-item">
+				<div id="Academic">
+					<p>
+						<h2>Academic Hestory</h2>
+						My name is kadri Youcef, 
+						a graduate of Adrar University 
+						with a master's degree in civil engineering, 
+						geotechnical branch.
+					</p>
+				</div>
+			</section>
+			<!--end Academic-->
+
+			<!--start skiles-->
+			<section class="skiles grid-item">
+				<div id="skiles">
+					<p>
+						<h2>skiles</h2>
+						Soletest| JavaScript| CSS|HTML|
+						Word| Powerpoint| Excel| Git| 
+					</p>
+				</div>
+			</section>
+			<!--end skiles-->
+
+			<!--start profissional career-->
+			<section class="profissional grid-item">
+				<div id="profissional">
+					<p>
+						<h2>profissional</h2>
+						My name is kadri Youcef, 
+						a graduate of Adrar University 
+						with a master's degree in civil engineering, 
+						geotechnical branch.
+					</p>
+				</div>
+			</section>
+			<!--end profissional career-->
+
+			<!--start contact career-->
+			<section class="contact grid-item">
+				<div id="contact">
+					<p>
+						<h2>contact</h2>
+						<ul>
+							<li>phone</li>
+							<li>mail</li>
+							<li>linkdin</li>
+							<li>adress</li>
+						</ul>
+					</p>
+				</div>
+			</section>
+			<!--end contact career-->
 		</div>
 		
-	</footer> 
-<!-- end Footer -->
-
-<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
-
 	</body>
 </html>
