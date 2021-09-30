@@ -10,7 +10,30 @@
 	font-weight: bold;
 	text-transform: capitalize;
 	font-size: 20px;
-	display:inline-flexbox;
+	display: inline-flexbox;
+}
+
+h2{
+	font-family:'Courier New', Courier, monospace;
+	font-display: swap;
+}
+
+.innersection a:hover{
+	text-decoration: underline;
+	color: hsl(203, 92%, 75%);
+}
+
+.innersection a{
+	color: #1b2142f7;
+	font-size: 1.04rem;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-decoration: none;
+}
+
+.innersection h3{
+	color:rgb(53, 113, 182);
+	font-weight: bold;
+	margin-top:	3px;
 }
 /*the start of the main*/
 main
@@ -92,8 +115,30 @@ div.innersection h3{
 
 /* this modification is for the *plane.html*  -end- */
 
+/* this modification is for the *Downcors.html*  -start- */
+.Down{
+	direction: ltr;
+	margin: 20px;
+}
+.Matier p {
+	text-align: center;
+	font-size: large;
+	text-transform: capitalize;
+	color: hsla(240, 54%, 37%, 0.986);
+}
 
+.Down h3{
+	color: rgb(64, 64, 231);
+}
+ul {
+	list-style: none;
+	margin: 0 0 2rem 0;
+	padding-left: 1rem; 
+}
 
+ul li {
+    padding-left: 0.325rem; 
+}
 
 
 
