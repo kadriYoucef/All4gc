@@ -1,0 +1,29 @@
+
+
+    
+         
+<!--
+    Watch "Download files using JavaScript | JS | Dharanz" on YouTube https://youtu.be/t0o7rxgbtkI
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    <a href="no-script.html" id="btnDownload">Download</a>
+    <script>
+        $(document).ready(function() {
+        $('#btnDownload').click(function(e) {
+            e.preventDefault();
+            window.location.href = "file4test.pdf";
+        });
+        });
+    </script>
+</body>
+</html>
