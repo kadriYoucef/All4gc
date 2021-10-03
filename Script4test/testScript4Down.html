@@ -1,10 +1,7 @@
-
-
-    
          
 <!--
     Watch "Download files using JavaScript | JS | Dharanz" on YouTube https://youtu.be/t0o7rxgbtkI
--->
+    dosnt work in edg
 
 <!DOCTYPE html>
 <html lang="en">
@@ -26,4 +23,48 @@
         });
     </script>
 </body>
+</html>
+-->
+
+
+<!--
+   this script is frome  https://www.delftstack.com/howto/javascript/javascript-download/
+   
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+      <title>How to download files using JavaScript</title>
+</head>
+
+<body>
+      <button onclick="download()">
+            Download pdf
+      </button>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js">
+      </script>
+      <script>
+            function download() {
+                  axios({
+                        url: 'cybersecurtiy.pdf',
+                        method: 'GET',
+                        responseType: 'blob'
+                  })
+                        .then((response) => {
+                              const url = window.URL
+                                    .createObjectURL(new Blob([response.data]));
+                              const link = document.createElement('a');
+                              link.href = url;
+                              link.setAttribute('download', 'hany.pdf');
+                              document.body.appendChild(link);
+                              link.click();
+                              document.body.removeChild(link);
+                        })
+            }
+
+      </script>
+</body>
+
 </html>
